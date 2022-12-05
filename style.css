@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.app{
+    margin: 0 auto;
+    width: 500px;
+    min-height: 700px;
+    padding: 60px 80px;
+
+    background-color: #C4C4C4;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+
+}
+
+.select.is-active .select__body{
+    display: block;
+}
+
+.select{
+    position: relative;
+}
+
+.select__input{
+    padding: 5px 13px;
+    width: 500px;
+    height: 61px;
+    box-sizing: border-box;
+    background-color: white;
+    
+    font-size: 48px;
+    line-height: 56px;
+
+    outline: none;
+    border: none;
+
+}
+
+.select__body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    display: none;
+}
+
+.select__item{
+    font-size: 30px;
+    line-height: 35px;
+
+    box-sizing: border-box;
+    width: 500px;
+    height: 44px;
+
+    background: #E3E3E3;
+    border: 2px solid #000000;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+}
+
+.select__item:hover{
+    background-color: #65CDF9;
+}
+
+.reposList{
+    margin-top: 265px;
+}
+
+
+.reposList__item{
+    height: 101px;
+    background: #E27BEB;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 8px 16px;
+
+    font-size: 24px;
+    line-height: 28px;
+
+    display: flex;
+    align-items: center;
+}
+
+.item__characters{
+    list-style-type: none;
+    margin-block: 0;
+    padding: 0;
+}
+
+.item__btn{
+    width: 42px;
+    height: 38.5px;
+    margin-left: auto; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    color: red;
+    text-align: center;
+    font-size: 90px;
+    background-color: inherit;
+
+    border: none;
+    cursor: pointer;
+}
